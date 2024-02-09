@@ -41,7 +41,7 @@ const productData: Prisma.ProductCreateInput[] = [
     star: 5,
     tag: "sale",
     image:
-      "https://hellbunny.com/media/catalog/product/h/l/hlb40006-wonder-years-pinafore-dress-mustard-01_1_1.jpg?width=700&height=700&store=default&image-type=image",
+      "https://content2.rozetka.com.ua/goods/images/big/350158455.jpg",
   },
   {
     name: "Martin Black Dress",
@@ -57,7 +57,7 @@ const productData: Prisma.ProductCreateInput[] = [
     star: 3,
     tag: "new",
     image:
-      "http://cdn.shopify.com/s/files/1/0313/1572/2378/products/linen-pinafore-dress-no-32-in-emmeline-check-pyne-and-smith-3.jpg?v=1651860592",
+      "https://content.rozetka.com.ua/goods/images/big/376939852.jpg",
   },
   {
     name: "Pinafore Mini Dress",

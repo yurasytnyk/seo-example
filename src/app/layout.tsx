@@ -3,7 +3,6 @@ import { GoogleTagManager } from "@next/third-parties/google";
 
 import { ENV } from "@/configs/env";
 import { inter } from "@/styles/fonts/fonts";
-import { Header } from "@/components/header/header";
 import { ROUTES } from "@/types/enums/routes.enums";
 import { JsonLd } from "@/components/json-ld/json-ld";
 import { ORGANIZATION_SCHEMA } from "@/configs/json-ld";
@@ -31,7 +30,7 @@ interface Props {
 export default function RootLayout({ children }: Props) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-black`}>
         {children}
 
         <JsonLd json={ORGANIZATION_SCHEMA} />
