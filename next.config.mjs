@@ -15,6 +15,20 @@ const nextConfig = {
       "content.rozetka.com.ua",
     ],
   },
+  rewrites: async () => [
+    {
+      source: "/blog-sitemap.xml",
+      destination: "/blog-sitemap",
+    },
+    {
+      source: "/static-pages-sitemap.xml",
+      destination: "/static-pages-sitemap",
+    },
+    {
+      source: "/products-sitemap-:page.xml",
+      destination: "/products-sitemap/:page",
+    },
+  ],
 };
 
 export default withBundleAnalyzer({
